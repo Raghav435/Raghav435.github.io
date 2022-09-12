@@ -1,0 +1,20 @@
+.profile-picture{
+    /* display: flex;
+    align-items: center; */
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 0px 0 100px;
+    border: 1px solid black;
+}
+.profile-picture-background{
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/Raghavpic.jpg");
+    background-size: cover;
+    border-radius: 60%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
