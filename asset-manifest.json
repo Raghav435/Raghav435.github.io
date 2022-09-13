@@ -1,19 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.98403e39.css",
-    "main.js": "/static/js/main.c963a66f.js",
-    "static/media/asos.jpg": "/static/media/asos.7f56f99837f7e70d23ae.jpg",
-    "static/media/toymarche1.jpg": "/static/media/toymarche1.f768a7e2d798d7b3f5d9.jpg",
-    "static/media/jcrew.jpg": "/static/media/jcrew.ff3f816aeb5463d342d5.jpg",
-    "static/media/green house.jpg": "/static/media/green house.3c065cd539cfb61a543f.jpg",
+    "main.css": "/static/css/main.c64eba81.css",
+    "main.js": "/static/js/main.20c7556b.js",
     "static/media/Raghavpic.jpg": "/static/media/Raghavpic.d917ea7f0cd0d5a8a8fc.jpg",
-    "static/media/nodejs.png": "/static/media/nodejs.abfaef34ea49d0c7cd3c.png",
+    "static/media/hero12.jpg": "/static/media/hero12.4086eafb77e5e0c6f076.jpg",
     "index.html": "/index.html",
-    "main.98403e39.css.map": "/static/css/main.98403e39.css.map",
-    "main.c963a66f.js.map": "/static/js/main.c963a66f.js.map"
+    "main.c64eba81.css.map": "/static/css/main.c64eba81.css.map",
+    "main.20c7556b.js.map": "/static/js/main.20c7556b.js.map"
   },
   "entrypoints": [
-    "static/css/main.98403e39.css",
-    "static/js/main.c963a66f.js"
+    "static/css/main.c64eba81.css",
+    "static/js/main.20c7556b.js"
   ]
 }
