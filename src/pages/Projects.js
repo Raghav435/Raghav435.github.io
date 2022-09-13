@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const Projects = () => {
-  return (
-    <div>Projects</div>
-  )
-}
+  return <div>
+    <Navbar/>
+    <Footer/>
+  </div>;
+};
 
-export default Projects
+export default Projects;

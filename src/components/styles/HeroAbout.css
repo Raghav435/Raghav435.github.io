@@ -1,0 +1,42 @@
+.hero-img {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 110vh;
+  position: relative;
+}
+
+.heading {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
+.profile-img {
+  justify-content: center;
+  margin-left: 20rem;
+}
+
+@media screen and (max-width: 1040px) {
+  .hero-img {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 110vh;
+    position: relative;
+  }
+  .heading {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .profile-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 20rem;
+    margin-top: 20px;
+  }
+}

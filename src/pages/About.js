@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import "../pages/About.css";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import AboutContent from "../components/AboutContent";
+import HeroAbout from "../components/HeroAbout";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div>
+      <Navbar />
 
-export default About
+      <HeroAbout />
+
+      <Footer />
+    </div>
+  );
+};
+
+export default About;
