@@ -16,9 +16,13 @@ const HeroImg = () => {
           <Link to="/projects" className="btn">
             PROJECTS
           </Link>
-          <Link to="/contact" className="btn btn-light">
-            contact
-          </Link>
+          <a
+            href="Raghav_shukla_Resume.pdf"
+            download="Raghav_shukla_Resume.pdf"
+            className="btn btn-light"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>

@@ -9,9 +9,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-
       <HeroAbout />
-
       <Footer />
     </div>
   );

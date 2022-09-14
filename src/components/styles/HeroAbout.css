@@ -1,11 +1,11 @@
-.hero-img {
+.hero-img-about {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   height: 110vh;
   position: relative;
 }
 
-.heading {
+.heading-about {
   width: 90%;
   height: 100%;
   display: flex;
@@ -20,13 +20,13 @@
 }
 
 @media screen and (max-width: 1040px) {
-  .hero-img {
+  .hero-img-about {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     height: 110vh;
     position: relative;
   }
-  .heading {
+  .heading-about {
     display: block;
     align-items: center;
     text-align: center;

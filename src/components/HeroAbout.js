@@ -5,8 +5,8 @@ import Profile from "../assets/Raghavpic.jpg";
 
 const HeroAbout = () => {
   return (
-    <div className="hero-img">
-      <div className="heading">
+    <div className="hero-img-about">
+      <div className="heading-about">
         <div className="profile-img">
           <img height="350px" src={Profile} alt={Profile} />
         </div>
