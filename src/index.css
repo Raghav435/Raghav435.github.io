@@ -7,7 +7,6 @@
   font-family: "Outfit", sans-serif;
   font-family: "Raleway", sans-serif;
 }
-
 body {
   background: #000;
 }
@@ -22,7 +21,7 @@ a {
 ul {
   list-style-type: none;
 }
-.btn{
+.btn {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
@@ -32,13 +31,12 @@ ul {
   font-weight: 600;
   cursor: pointer;
 }
-.btn-light{
+.btn-light {
   background: transparent;
   color: #fff;
 }
-.btn:hover{
+.btn:hover {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3s;
 }
-

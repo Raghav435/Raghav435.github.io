@@ -1,0 +1,27 @@
+.techs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-container h1 {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: "840px") {
+  .techs {
+    display: block;
+  }
+  .tech-container h1 {
+    font-size: 1rem;
+  }
+}

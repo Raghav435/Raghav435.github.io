@@ -3,15 +3,17 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import HeroImg2 from "../components/HeroImg2";
 import "../pages/Technologies.css";
+import TechStack from "../components/TechStack";
 
 const Technologies = () => {
   return (
     <div>
       <Navbar />
       <HeroImg2
-        heading="Technalogies."
-        text="By enthusiasticly I work on it...."
+        heading="TECHONOLOGIES."
+        text="By Enthusiasticly I work on it...."
       />
+      <TechStack/>
       <Footer />
     </div>
   );
