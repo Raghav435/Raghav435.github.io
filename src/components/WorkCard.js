@@ -13,10 +13,10 @@ const WorkCard = (props) => {
           Tech Stack : {props.techstack}
         </p>
         <div className="pro-btns">
-          <a href={props.view} className="btn">
+          <a  target="_blank" href={props.view} className="btn">
             View
           </a>
-          <a href={props.source} className="btn">
+          <a  target="_blank" href={props.source} className="btn">
             Source
           </a>
         </div>
