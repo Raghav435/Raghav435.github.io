@@ -1,11 +1,12 @@
 import React from "react";
 import "./styles/Footer.css";
 import {
-  FaFacebook,
   FaHome,
   FaLinkedin,
   FaMailBulk,
   FaMedium,
+  FaGithub,
+  FaHackerrank,
 } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 
@@ -40,18 +41,31 @@ const Footer = () => {
           <h4>THANK YOU</h4>
           <p>FOR VISITING MY PORTFOLIO</p>
           <div className="social">
-            <FaLinkedin
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaFacebook
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaMedium
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+            <a target="blank" href="https://www.linkedin.com/in/raghav-shukla-8b0288162/">
+              <FaLinkedin
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+
+            <a target="blank" href="https://github.com/Raghav435">
+              <FaGithub
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a target="blank" href="https://www.hackerrank.com/shuklaraghav435">
+              <FaHackerrank
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a target="blank" href="https://medium.com/me/stories/drafts">
+              <FaMedium
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>

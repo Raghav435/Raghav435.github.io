@@ -59,6 +59,18 @@ const TechStack = () => {
         <img src={postman} title="Postman" alt="Postman" />
         <img height="100px" src={codesandbox} title="Postman" alt="Postman" />
       </div>
+
+      <div className="heading">
+        <h1 style={{ color: "yellow", marginTop: "4rem" }}>SOFT SKILLS</h1>
+      </div>
+
+      <div className="softskill-heading">
+        <p style={{color:"cyan", marginTop:"2rem"}}>Time Mangement</p>
+        <p  style={{color:"cyan", marginTop:"2rem"}}>Problem-solving Skills</p>
+        <p  style={{color:"cyan", marginTop:"2rem"}}>Interpersonal Skills</p>
+        <p  style={{color:"cyan", marginTop:"2rem"}}>Critical Thinking</p>
+        <p  style={{color:"cyan", marginTop:"2rem"}}>Accountability</p>
+      </div>
     </div>
   );
 };
