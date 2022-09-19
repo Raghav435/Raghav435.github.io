@@ -18,7 +18,7 @@ const HeroImg = () => {
           </Link>
           <a
             target="_blank"
-            href="Raghav_shukla_Resume.pdf"
+            href="https://drive.google.com/file/d/10MXQyiRdBVuwRJcM6f7LXTcYWay0aZ0O/view?usp=sharing"
             className="btn btn-light"
           >
             Resume
