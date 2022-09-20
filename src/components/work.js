@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/WorkCard.css";
 import WorkCard from "./WorkCard";
 import WorkCardData from "./WorkCardData";
+import "./styles/Work.css";
 
 const Work = () => {
   return (

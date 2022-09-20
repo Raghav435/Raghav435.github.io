@@ -1,0 +1,8 @@
+@media screen and (max-width: "740px") {
+  .github-container {
+ margin-top: 8rem;
+  }
+  .github_heading {
+    margin-top: 8rem;
+  }
+}

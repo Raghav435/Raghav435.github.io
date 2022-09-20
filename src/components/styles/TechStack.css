@@ -29,9 +29,11 @@
   text-align: center;
 }
 
-@media screen and (max-width: "680px") {
+@media screen and (max-width: 680px) {
   .techs{
     display: block;
+    gap: 2rem;
+    padding-top: 1rem;
   }
   .tech-container h1 {
     font-size: 1rem;

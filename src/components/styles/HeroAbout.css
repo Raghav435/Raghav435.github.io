@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-right: 20rem;
-    margin-top: 20px;
+    margin: auto;
+    padding-top: 8rem;
   }
 }

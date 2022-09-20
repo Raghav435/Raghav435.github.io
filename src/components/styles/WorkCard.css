@@ -41,11 +41,18 @@
   padding: 0.5rem 1rem;
 }
 
-@media screen and (max-width: "740px") {
+@media screen and (max-width: 740px) {
   .project-container {
     max-width: 90%;
     margin: auto;
-
-    grid-template-columns: 1fr;
+    display: block;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px; */
+    padding-bottom: 5rem;
+  }
+  .project-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
+
