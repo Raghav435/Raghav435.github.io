@@ -41,17 +41,22 @@
   margin-top: 1rem;
 }
 
-h4 {
+.right h4 {
   font-size: 1.2rem;
   padding-bottom: 0.7rem;
 }
 
-p {
-  font-size: 1.2rem;
-}
 
 @media screen and (max-width: 640px) {
+  .footer{
+    padding: 2rem 0;
+
+  }
   .footer-container {
     grid-template-columns: 1fr;
+  }
+  .location{
+    display: block;
+    text-align: center;
   }
 }

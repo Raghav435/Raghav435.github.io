@@ -9,8 +9,8 @@ const WorkCard = (props) => {
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
         <p>{props.text}</p>
-        <p style={{ color: "teal", marginTop: "1rem" }}>
-          Tech Stack : {props.techstack}
+        <p style={{ color: "cyan", marginTop: "1rem" }}>
+          Tech Stacks : {props.techstack}
         </p>
         <div className="pro-btns">
           <a  target="_blank" href={props.view} className="btn">

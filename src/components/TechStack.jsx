@@ -50,7 +50,7 @@ const TechStack = () => {
       <div className="techs">
         <img src={vscode} title="Visual Studio Code" alt="vscode" />
         <img
-          style={{ marginBottom: "20px" }}
+          // style={{ marginBottom: "20px" }}
           height="100px"
           src={github}
           title="Github"
