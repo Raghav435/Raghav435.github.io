@@ -1,0 +1,33 @@
+.stats_title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 5rem;
+  color: teal;
+}
+.stats_data {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.individualStat {
+  width: 140px;
+  text-align: center;
+  color: white;
+}
+
+.individualStat > div:nth-child(1) {
+  margin: auto;
+  font-size: 28px;
+  font-weight: 600;
+  height: 130px;
+  width: 130px;
+  border: 10px solid #506aff;
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
