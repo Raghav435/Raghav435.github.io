@@ -15,7 +15,7 @@ const Github = () => {
   };
   return (
     <div className="github-container">
-      <h1 className="github_heading" style={{ fontSize: "3rem", marginTop: "1rem", color: "teal", textAlign:"center"}}>
+      <h1 className="github_heading" style={{ fontSize: "3rem", marginTop: "1rem", marginBottom: "5rem" ,color: "teal", textAlign:"center"}}>
         DAYS I CODE
       </h1>
 

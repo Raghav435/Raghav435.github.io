@@ -31,3 +31,17 @@
   align-items: center;
   color: white;
 }
+
+@media screen and (max-width: 740px){
+
+  .stats_title{
+    margin-top: 3rem;
+  }
+
+  .stats_data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+}
