@@ -3,6 +3,7 @@ import Image2 from "../assets/projects/asos.jpg";
 import Image3 from "../assets/projects/green house.jpg";
 import Image4 from "../assets/projects/Img4.jpg";
 import projectImage1 from "../assets/projects/toymarche1.jpg";
+import Ecommerce from "../assets/projects/Ecommerce.jpg";
 
 const ProjectCardData = [
   {
@@ -14,12 +15,20 @@ const ProjectCardData = [
     source: "https://github.com/Raghav435/J.Crew_Clone",
   },
   {
-    imgsrc: Image2,
-    title: "ASOS_Clone",
-    text: "ASOS Group, Inc., is an BRITISH multi-brand, multi-channel, specialty retailer.The company offers an assortment of women's, men's, and children's apparel and accessories, including swimwear, outerwear, lounge-wear, bags, sweaters, denim, dresses, suiting, jewelry, and shoes",
-    techstack: "HTML, CSS, JavaScript, Git",
-    view: "https://bucolic-dusk-5d76e5.netlify.app/",
-    source: "https://github.com/Raghav435/ASOS_Clone",
+    imgsrc: Image4,
+    title: "Clockify_Clone",
+    text: "Free Time Tracker Clockify is the most popular free time tracker and timesheet app for teams of all sizes.Unlike all the other time trackers, Clockify lets you have an unlimited number of users for free.Clockify is an online app that works in a browser, but you can also install it on your computer or phone for convenience.",
+    techstack: "React, Redux, Chakra/UI, MongoDB, Express",
+    view: "https://clockify-omega.vercel.app/",
+    source: "https://github.com/Raghav435/Clockify_Clone",
+  },
+  {
+    imgsrc: Ecommerce,
+    title: "Ecommerce_App",
+    text: "It is an E-commerce website where you can buy your daily needs products. It is created in such a way that every user can access eaisly and feels comfortable.Here i provide the user and Admin UI Interface",
+    techstack: "React, Redux, Chakra/UI, Stripe-payments, React-toastify, Redux-thunk, devtools-extension",
+    view: "https://raghav-pr-rct-raghav435.vercel.app/",
+    source: "https://github.com/Raghav435/E-commerce",
   },
   {
     imgsrc: Image3,
@@ -38,12 +47,12 @@ const ProjectCardData = [
     source: "https://github.com/Raghav435/ToyMarche_clone",
   },
   {
-    imgsrc: Image4,
-    title: "Clockify_Clone",
-    text: "Free Time Tracker Clockify is the most popular free time tracker and timesheet app for teams of all sizes.Unlike all the other time trackers, Clockify lets you have an unlimited number of users for free.Clockify is an online app that works in a browser, but you can also install it on your computer or phone for convenience.",
-    techstack: "React, Redux, Chakra/UI, MongoDB, Express",
-    view: "https://clockify-omega.vercel.app/",
-    source: "https://github.com/Raghav435/Clockify_Clone",
+    imgsrc: Image2,
+    title: "ASOS_Clone",
+    text: "ASOS Group, Inc., is an BRITISH multi-brand, multi-channel, specialty retailer.The company offers an assortment of women's, men's, and children's apparel and accessories, including swimwear, outerwear, lounge-wear, bags, sweaters, denim, dresses, suiting, jewelry, and shoes",
+    techstack: "HTML, CSS, JavaScript, Git",
+    view: "https://bucolic-dusk-5d76e5.netlify.app/",
+    source: "https://github.com/Raghav435/ASOS_Clone",
   },
 ];
 

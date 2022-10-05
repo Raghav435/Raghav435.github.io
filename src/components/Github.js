@@ -1,4 +1,3 @@
-import { Heading } from "@chakra-ui/react";
 import React from "react";
 import Githubcalendar from "react-github-calendar";
 import "./styles/Github.css";
