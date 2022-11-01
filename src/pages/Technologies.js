@@ -10,7 +10,7 @@ const Technologies = () => {
     <div>
       <Navbar />
       <HeroImg2
-        heading="TECHONOLOGIES."
+        heading="Skills"
         text="By Enthusiasticly I work on it...."
       />
       <TechStack/>

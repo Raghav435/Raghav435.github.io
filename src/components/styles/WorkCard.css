@@ -41,7 +41,7 @@
   padding: 0.5rem 1rem;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 450px) {
   .project-container {
     max-width: 90%;
     margin: auto;
@@ -53,6 +53,22 @@
   .project-card{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 800px) {
+  .project-container {
+    /* max-width: 90%; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px; */
+    padding-bottom: 5rem;
+  }
+  .project-card{
+    
   }
 }
 
