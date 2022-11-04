@@ -13,9 +13,9 @@ const HeroImg = () => {
         <p>HI, I'M RAGHAV SHUKLA</p>
         <h1>FULL STACK WEB DEVELOPER</h1>
         <div>
-          <Link to="/projects" className="btn">
+          <a href="#projects" className="btn">
             PROJECTS
-          </Link>
+          </a>
           <a
             target="_blank"
             href="https://drive.google.com/file/d/10MXQyiRdBVuwRJcM6f7LXTcYWay0aZ0O/view?usp=sharing"

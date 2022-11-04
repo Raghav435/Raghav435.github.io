@@ -7,28 +7,12 @@ import Ecommerce from "../assets/projects/Ecommerce.jpg";
 
 const ProjectCardData = [
   {
-    imgsrc: Image1,
-    title: "JCrew_Clone",
-    text: "This project is the clone of J.Crew.com with some of its basic functionalities including Login, Sign Up, Sign Out, add to cart, Remove From cart, Save for Later features, Checkout feature Search and Sorting functionalities. J.Crew Group, Inc., is an American multi-brand, multi-channel, specialty retailer",
-    techstack: "HTML, CSS, JavaScript, Git",
-    view: "https://leafy-kangaroo-914e0b.netlify.app/index.html",
-    source: "https://github.com/Raghav435/J.Crew_Clone",
-  },
-  {
     imgsrc: Image4,
     title: "Clockify_Clone",
     text: "Free Time Tracker Clockify is the most popular free time tracker and timesheet app for teams of all sizes.Unlike all the other time trackers, Clockify lets you have an unlimited number of users for free.Clockify is an online app that works in a browser, but you can also install it on your computer or phone for convenience.",
     techstack: "React, Redux, Chakra/UI, MongoDB, Express",
     view: "https://clockify-omega.vercel.app/",
     source: "https://github.com/Raghav435/Clockify_Clone",
-  },
-  {
-    imgsrc: Ecommerce,
-    title: "Ecommerce_App",
-    text: "It is an E-commerce website where you can buy your daily needs products. It is created in such a way that every user can access eaisly and feels comfortable.Here i provide the user and Admin UI Interface",
-    techstack: "React, Redux, Chakra/UI, Stripe-payments, React-toastify, Redux-thunk, devtools-extension",
-    view: "https://raghav-pr-rct-raghav435.vercel.app/",
-    source: "https://github.com/Raghav435/E-commerce",
   },
   {
     imgsrc: Image3,
@@ -38,6 +22,23 @@ const ProjectCardData = [
     view: "https://greenhouse-clone.vercel.app/",
     source: "https://github.com/Raghav435/Greenhouse_Clone",
   },
+  {
+    imgsrc: Ecommerce,
+    title: "Ecommerce_App",
+    text: "It is an E-commerce website where you can buy your daily needs products. It is created in such a way that every user can access eaisly and feels comfortable.Here i provide the user and Admin UI Interface.It is a individual project created by me.",
+    techstack: "React, Redux, Chakra/UI, Stripe-payments, React-toastify, Redux-thunk, devtools-extension",
+    view: "https://raghav-pr-rct-raghav435.vercel.app/",
+    source: "https://github.com/Raghav435/E-commerce",
+  },
+  {
+    imgsrc: Image1,
+    title: "JCrew_Clone",
+    text: "This project is the clone of J.Crew.com with some of its basic functionalities including Login, Sign Up, Sign Out, add to cart, Remove From cart, Save for Later features, Checkout feature Search and Sorting functionalities. J.Crew Group, Inc., is an American multi-brand, multi-channel, specialty retailer",
+    techstack: "HTML, CSS, JavaScript, Git",
+    view: "https://leafy-kangaroo-914e0b.netlify.app/index.html",
+    source: "https://github.com/Raghav435/J.Crew_Clone",
+  },
+
   {
     imgsrc: projectImage1,
     title: "ToyMarche_Clone",
@@ -54,6 +55,7 @@ const ProjectCardData = [
     view: "https://bucolic-dusk-5d76e5.netlify.app/",
     source: "https://github.com/Raghav435/ASOS_Clone",
   },
+  
 ];
 
 export default ProjectCardData;

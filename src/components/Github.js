@@ -14,7 +14,35 @@ const Github = () => {
   };
   return (
     <div className="github-container">
-      <h1 className="github_heading" style={{ fontSize: "3rem", marginTop: "1rem", marginBottom: "5rem" ,color: "teal", textAlign:"center"}}>
+      <h2 className="section-title" style={{fontSize: "3rem",color:"Teal", margin: "3rem"}}>GitHub</h2>
+      <div className="github">
+        <div className="github-stats">
+          <img
+          className="github-stats-img"
+            src="https://github-readme-stats.vercel.app/api?username=raghav435&show_icons=true&theme=radical"
+            alt=""
+          />
+          <br />
+          <img
+           className="github-stats-img"
+            src="https://github-readme-streak-stats.herokuapp.com?user=raghav435&theme=react&hide_border=true)](https://git.io/streak-stats"
+            alt=""
+          />
+          <br />
+         
+        </div>
+      </div>
+
+      <h1
+        className="github_heading"
+        style={{
+          fontSize: "3rem",
+          marginTop: "3rem",
+          marginBottom: "4rem",
+          color: "teal",
+          textAlign: "center",
+        }}
+      >
         DAYS I CODE
       </h1>
 
@@ -24,7 +52,7 @@ const Github = () => {
           justifyContent: "center",
           marginTop: "2rem",
           padding: "1rem",
-          backgroundColor:"#ffff"
+          backgroundColor: "#ffff",
         }}
       >
         <Githubcalendar

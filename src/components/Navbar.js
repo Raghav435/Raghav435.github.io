@@ -23,24 +23,24 @@ const Navbar = () => {
   window.addEventListener("scroll", changeColor);
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/">
+      <a href="#home">
         <h1>R S</h1>
-      </Link>
+      </a>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <a href="#home" class="menu-btn">Home</a>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <a href="#about" class="menu-btn">About</a>
         </li>
         <li>
-          <Link to="/projects">Project</Link>
+        <a href="#projects" class="menu-btn">Project</a>
         </li>
         <li>
-          <Link to="/technologies">Skills</Link>
+          <a href="#technologies">Skills</a>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>

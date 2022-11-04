@@ -19,11 +19,33 @@
   margin-left: 20rem;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 380px) {
   .hero-img-about {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     height: 110vh;
+    position: relative;
+  }
+  .heading-about {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .profile-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 381px) and (max-width: 880px) {
+  .hero-img-about {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80vh;
     position: relative;
   }
   .heading-about {

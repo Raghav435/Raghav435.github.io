@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <Navbar />
       <HeroImg2 heading="CONTACT" text="Let's Connect" />
       <Footer />

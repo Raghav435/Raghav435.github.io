@@ -9,12 +9,12 @@ import Stats from "../components/Stats";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <Navbar />
       <HeroAbout />
       <Stats/>
       <Github/>
-      <Footer />
+      
     </div>
   );
 };

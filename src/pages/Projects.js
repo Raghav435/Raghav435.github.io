@@ -6,11 +6,10 @@ import Work from "../components/Work";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="projects">
       <Navbar />
       <HeroImg2 heading="Projects." text="Some of my good Projects" />
       <Work />
-      <Footer />
     </div>
   );
 };

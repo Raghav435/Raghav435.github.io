@@ -7,14 +7,10 @@ import TechStack from "../components/TechStack";
 
 const Technologies = () => {
   return (
-    <div>
+    <div id="technologies">
       <Navbar />
-      <HeroImg2
-        heading="Skills"
-        text="By Enthusiasticly I work on it...."
-      />
-      <TechStack/>
-      <Footer />
+      <HeroImg2 heading="Skills" text="By Enthusiasticly I work on it...." />
+      <TechStack />
     </div>
   );
 };

@@ -19,9 +19,9 @@ const HeroAbout = () => {
             Enthusiastic of building applications with front and back end
             operations.
           </p>
-          <Link to="/contact">
+          <a href="#contact">
             <button className="btn">Contact</button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

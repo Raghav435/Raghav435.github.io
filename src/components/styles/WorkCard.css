@@ -56,7 +56,7 @@
   }
 }
 
-@media screen and (min-width: 451px) and (max-width: 800px) {
+@media screen and (min-width: 451px) and (max-width: 840px) {
   .project-container {
     /* max-width: 90%; */
     margin: auto;
