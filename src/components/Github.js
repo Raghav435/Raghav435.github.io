@@ -61,6 +61,7 @@ const Github = () => {
           blockMargin={5}
           theme={colourTheme}
           fontSize={16}
+          marginBottom="2rem"
         />
       </div>
     </div>

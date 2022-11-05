@@ -1,6 +1,12 @@
-@media screen and (max-width: 740px) {
+.github-container {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 440px) {
   .github-container {
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .github-stats{
     display: block;
@@ -8,5 +14,21 @@
   }
   .github-stats-img{
     height: 160px;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .github-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .github-stats{
+    display: block;
+    width: 20%;
+  }
+  .github-stats-img{
+    height: 160px;
+    margin-top: 2rem;
   }
 }

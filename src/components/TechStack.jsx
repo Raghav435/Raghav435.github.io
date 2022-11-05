@@ -6,9 +6,9 @@ import css from "../assets/techstack/css.png";
 import js from "../assets/techstack/js.png";
 import react from "../assets/techstack/react.png";
 import redux from "../assets/techstack/redux.png";
-import nodejs from "../assets/techstack/nodejs3.png";
-import mongodb from "../assets/techstack/mongoDB.png";
-import expressjs from "../assets/techstack/expressjs2.png";
+import nodejs from "../assets/techstack/nodejs4.png";
+import mongodb from "../assets/techstack/mongodb3.webp";
+import expressjs from "../assets/techstack/expressjs4.png";
 import bootstrap from "../assets/techstack/bootstrap.png";
 import vscode from "../assets/techstack/vscode.png";
 import github from "../assets/techstack/github.png";
@@ -23,7 +23,7 @@ const TechStack = () => {
         <h1 style={{ color: "yellow", marginTop: "4rem" }}>FRONTEND</h1>
       </div>
 
-      <div className="techs">
+      <div className="front-techs">
         <img src={html} title="html" alt="html" />
         <img src={css} title="CSS" alt="css" />
         <img src={js} title="JavaScript" alt="js" />
@@ -47,7 +47,7 @@ const TechStack = () => {
         <h1 style={{ color: "yellow", marginTop: "4rem" }}>TOOLS</h1>
       </div>
 
-      <div className="techs">
+      <div className="tools-techs">
         <img src={vscode} title="Visual Studio Code" alt="vscode" />
         <img
           // style={{ marginBottom: "20px" }}
@@ -61,7 +61,7 @@ const TechStack = () => {
       </div>
 
       <div className="heading">
-        <h1 style={{ color: "yellow", marginTop: "4rem" }}>SOFT SKILLS</h1>
+        <h1 style={{ color: "yellow", marginTop: "4rem"}}>SOFT SKILLS</h1>
       </div>
 
       <div className="softskill-heading">
