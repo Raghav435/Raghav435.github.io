@@ -13,11 +13,10 @@ const HeroAbout = () => {
         <div>
           <h1 style={{ color: "cyan",marginBottom:"30px" }}>About Me</h1>
           <p style={{ color: "cyan",marginBottom:"30px" }}>
-            Experience as a project Engineer. A developers work not only develop
-            website, but also go through all the faces with pros and cons, that
-            can make you best developer and develop a Full fledged website.
-            Enthusiastic of building applications with front and back end
-            operations.
+            Experience as a project Engineer. Enthusiastic of building applications with front and back end
+            operations. A developers work not only develop
+            website, but also go through all the phases with pros and cons.
+            
           </p>
           <a href="#contact">
             <button className="btn">Contact</button>
