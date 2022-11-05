@@ -12,7 +12,7 @@ const About = () => {
     <div id="about">
       <Navbar />
       <HeroAbout />
-      <Stats/>
+      {/* <Stats/> */}
       <Github/>
       
     </div>

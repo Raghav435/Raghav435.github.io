@@ -42,6 +42,15 @@ const Navbar = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
+        <li>
+        <a
+            target="_blank"
+            href="https://drive.google.com/file/d/10MXQyiRdBVuwRJcM6f7LXTcYWay0aZ0O/view?usp=sharing"
+           
+          >
+            Resume
+          </a>
+        </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (

@@ -14,7 +14,7 @@ const Github = () => {
   };
   return (
     <div className="github-container">
-      <h2 className="section-title" style={{fontSize: "3rem",color:"Teal", margin: "3rem"}}>GitHub</h2>
+      <h2 className="section-title" style={{fontSize: "3rem",color:"Teal", margin: "3rem"}}>GitHub Stats</h2>
       <div className="github">
         <div className="github-stats">
           <img
