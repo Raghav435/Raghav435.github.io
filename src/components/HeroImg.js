@@ -16,12 +16,17 @@ const HeroImg = () => {
           <a href="#projects" className="btn">
             PROJECTS
           </a>
-          <a
-            target="_blank"
-            href="https://drive.google.com/file/d/10MXQyiRdBVuwRJcM6f7LXTcYWay0aZ0O/view?usp=sharing"
-            className="btn btn-light"
-          >
-            Resume
+          <a href="../assets/Resume/Raghav_Shukla_Resume.pdf" download>
+            <button
+              className="btn"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/10MXQyiRdBVuwRJcM6f7LXTcYWay0aZ0O/view?usp=sharing"
+                )
+              }
+            >
+              Resume
+            </button>
           </a>
         </div>
       </div>

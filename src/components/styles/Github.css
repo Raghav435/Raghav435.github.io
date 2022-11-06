@@ -2,6 +2,9 @@
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
+.github-stats-img{
+  margin: 2rem;
+}
 
 @media screen and (max-width: 440px) {
   .github-container {

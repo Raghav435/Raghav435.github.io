@@ -28,13 +28,19 @@ const Navbar = () => {
       </a>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <a href="#home" class="menu-btn">Home</a>
+          <a href="#home" class="menu-btn">
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about" class="menu-btn">About</a>
+          <a href="#about" class="menu-btn">
+            About
+          </a>
         </li>
         <li>
-        <a href="#projects" class="menu-btn">Project</a>
+          <a href="#projects" class="menu-btn">
+            Project
+          </a>
         </li>
         <li>
           <a href="#technologies">Skills</a>
@@ -43,12 +49,17 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li>
-        <a
-            target="_blank"
-            href="https://drive.google.com/file/d/10MXQyiRdBVuwRJcM6f7LXTcYWay0aZ0O/view?usp=sharing"
-            download
-          >
-            Resume
+          <a href="../assets/Resume/Raghav_Shukla_Resume.pdf" download>
+            <div
+              class="menu-btn"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/10MXQyiRdBVuwRJcM6f7LXTcYWay0aZ0O/view?usp=sharing"
+                )
+              }
+            >
+              Resume
+            </div>
           </a>
         </li>
       </ul>
