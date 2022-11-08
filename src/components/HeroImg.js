@@ -16,7 +16,7 @@ const HeroImg = () => {
           <a href="#projects" className="btn">
             PROJECTS
           </a>
-          <a href="../assets/Resume/Raghav_Shukla_Resume.pdf" download>
+          <a  href= {require("../assets/Resume/Raghav_Shukla_Resume.pdf")} download>
             <button
               className="btn"
               onClick={() =>
