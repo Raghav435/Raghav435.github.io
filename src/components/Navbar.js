@@ -49,7 +49,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="../assets/Resume/Raghav_Shukla_Resume.pdf" download>
+          <a href={require("../assets/Resume/Raghav_Shukla_Resume.pdf")} download>
             <div
               class="menu-btn"
               onClick={() =>
