@@ -8,15 +8,15 @@ const HeroAbout = () => {
     <div className="hero-img-about">
       <div className="heading-about">
         <div className="profile-img">
-          <img  height= "300px" src={Profile} alt={Profile} />
+          <img height="300px" src={Profile} alt={Profile} />
         </div>
         <div>
-          <h1 style={{ color: "cyan",marginBottom:"30px" }}>About Me</h1>
-          <p style={{ color: "cyan",marginBottom:"30px" }}>
-            Experience as a project Engineer. Enthusiastic of building applications with front and back end
-            operations. A developers work not only develop
-            website, but also go through all the phases with pros and cons.
-            
+          <h1 style={{ color: "cyan", marginBottom: "30px" }}>About Me</h1>
+          <p style={{ color: "cyan", marginBottom: "30px" }}>
+            Experience as a Project Engineer. Passionate about full-stack web
+            development. Enthusiastic about building applications with front and
+            back-end operations. Developers work not only to develop a website
+            but also go through all the phases with pros and cons.
           </p>
           <a href="#contact">
             <button className="btn">Contact</button>

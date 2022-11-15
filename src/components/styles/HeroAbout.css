@@ -1,4 +1,4 @@
-.hero-img-about{
+.hero-img-about {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   height: 110vh;
@@ -13,6 +13,10 @@
   justify-content: space-around;
   align-items: center;
   gap: 5rem;
+}
+.heading-about p {
+  width: 80%;
+  margin: auto;
 }
 .profile-img {
   justify-content: center;
@@ -33,12 +37,15 @@
     text-align: center;
     justify-content: center;
   }
+  .heading-about p {
+    margin: auto;
+  }
   .profile-img {
     display: flex;
     justify-content: center;
     align-content: center;
     margin: auto;
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
   }
 }
 
