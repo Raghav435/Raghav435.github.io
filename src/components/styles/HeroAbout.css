@@ -22,8 +22,11 @@
   justify-content: center;
   margin-left: 20rem;
 }
+.profile-rs{
+  height:300px;
+}
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .hero-img-about {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -41,15 +44,19 @@
     margin: auto;
   }
   .profile-img {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-content: center;
     margin: auto;
     /* padding-top: 8rem; */
   }
+  .profile-rs{
+    height:200px;
+    margin: auto;
+  }
 }
 
-@media screen and (min-width: 381px) and (max-width: 880px) {
+@media screen and (min-width: 401px) and (max-width: 800px) {
   .hero-img-about {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -68,5 +75,36 @@
     align-content: center;
     margin: auto;
     padding-top: 8rem;
+  }
+  .profile-rs{
+    height:300px;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .hero-img-about {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    position: relative;
+  }
+  .heading-about {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .profile-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding-top: 8rem;
+  }
+  .profile-rs{
+    height:350px;
+    margin: auto;
   }
 }

@@ -8,7 +8,7 @@ const HeroAbout = () => {
     <div className="hero-img-about">
       <div className="heading-about">
         <div className="profile-img">
-          <img height="300px" src={Profile} alt={Profile} />
+          <img className="profile-rs"  src={Profile} alt={Profile} />
         </div>
         <div>
           <h1 style={{ color: "cyan", marginBottom: "30px" }}>About Me</h1>
