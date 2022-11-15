@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.34156852.css",
-    "main.js": "/static/js/main.16928720.js",
+    "main.css": "/static/css/main.dd68640f.css",
+    "main.js": "/static/js/main.a435402b.js",
     "static/media/Raghav_Shukla_Resume.pdf": "/static/media/Raghav_Shukla_Resume.9e2f65e84a8217ceed8c.pdf",
     "static/media/asos.jpg": "/static/media/asos.7f56f99837f7e70d23ae.jpg",
     "static/media/toymarche1.jpg": "/static/media/toymarche1.f768a7e2d798d7b3f5d9.jpg",
@@ -13,11 +13,11 @@
     "static/media/hero12.jpg": "/static/media/hero12.4086eafb77e5e0c6f076.jpg",
     "static/media/mongodb3.webp": "/static/media/mongodb3.2a107cf4a13bf2ef9649.webp",
     "index.html": "/index.html",
-    "main.34156852.css.map": "/static/css/main.34156852.css.map",
-    "main.16928720.js.map": "/static/js/main.16928720.js.map"
+    "main.dd68640f.css.map": "/static/css/main.dd68640f.css.map",
+    "main.a435402b.js.map": "/static/js/main.a435402b.js.map"
   },
   "entrypoints": [
-    "static/css/main.34156852.css",
-    "static/js/main.16928720.js"
+    "static/css/main.dd68640f.css",
+    "static/js/main.a435402b.js"
   ]
 }
