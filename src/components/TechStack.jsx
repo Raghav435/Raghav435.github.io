@@ -38,9 +38,19 @@ const TechStack = () => {
       </div>
 
       <div className="techs">
-        <img src={nodejs} title="NodeJs" alt="nodejs" />
-        <img src={expressjs} title="NodeJs" alt="expressjs" />
-        <img src={mongodb} title="NodeJs" alt="mongodb" />
+        <img className="back-techs" src={nodejs} title="NodeJs" alt="nodejs" />
+        <img
+          className="back-techs"
+          src={expressjs}
+          title="NodeJs"
+          alt="expressjs"
+        />
+        <img
+          className="back-techs"
+          src={mongodb}
+          title="NodeJs"
+          alt="mongodb"
+        />
       </div>
 
       <div className="heading">
@@ -61,15 +71,17 @@ const TechStack = () => {
       </div>
 
       <div className="heading">
-        <h1 style={{ color: "yellow", marginTop: "4rem"}}>SOFT SKILLS</h1>
+        <h1 style={{ color: "yellow", marginTop: "4rem" }}>SOFT SKILLS</h1>
       </div>
 
       <div className="softskill-heading">
-        <p style={{color:"cyan", marginTop:"2rem"}}>Time Mangement</p>
-        <p  style={{color:"cyan", marginTop:"2rem"}}>Problem-solving Skills</p>
-        <p  style={{color:"cyan", marginTop:"2rem"}}>Interpersonal Skills</p>
-        <p  style={{color:"cyan", marginTop:"2rem"}}>Critical Thinking</p>
-        <p  style={{color:"cyan", marginTop:"2rem"}}>Accountability</p>
+        <p style={{ color: "cyan", marginTop: "2rem" }}>Time Mangement</p>
+        <p style={{ color: "cyan", marginTop: "2rem" }}>
+          Problem-solving Skills
+        </p>
+        <p style={{ color: "cyan", marginTop: "2rem" }}>Interpersonal Skills</p>
+        <p style={{ color: "cyan", marginTop: "2rem" }}>Critical Thinking</p>
+        <p style={{ color: "cyan", marginTop: "2rem" }}>Accountability</p>
       </div>
     </div>
   );
