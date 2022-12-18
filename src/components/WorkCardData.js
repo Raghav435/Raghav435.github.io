@@ -1,5 +1,4 @@
 import Image1 from "../assets/projects/jcrew.jpg";
-import Image2 from "../assets/projects/asos.jpg";
 import Image3 from "../assets/projects/green house.jpg";
 import Image4 from "../assets/projects/Img4.jpg";
 import Img5 from "../assets/projects/Img5.png";
