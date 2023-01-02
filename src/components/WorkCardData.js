@@ -29,7 +29,7 @@ const ProjectCardData = [
     title: "JCrew_Clone",
     text: "This project is the clone of J.Crew.com with some of its basic functionalities including Login, Sign Up, Sign Out, add to cart, Remove From cart, Save for Later features, Checkout feature Search and Sorting functionalities. J.Crew Group, Inc., is an American multi-brand, multi-channel, specialty retailer",
     techstack: "HTML, CSS, JavaScript, Git",
-    view: "https://leafy-kangaroo-914e0b.netlify.app/index.html",
+    view: "https://taupe-melba-da07f5.netlify.app/",
     source: "https://github.com/Raghav435/J.Crew_Clone",
   },
   {
