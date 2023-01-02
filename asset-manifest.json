@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.a9c86599.css",
-    "main.js": "/static/js/main.c0f5c4ca.js",
+    "main.js": "/static/js/main.940e47b8.js",
     "static/media/Img5.png": "/static/media/Img5.a7dd4dfa4a5bb6eea05f.png",
-    "static/media/Raghav_Shukla_Resume.pdf": "/static/media/Raghav_Shukla_Resume.a6def790217632dc69d4.pdf",
+    "static/media/Raghav_Shukla_Resume.pdf": "/static/media/Raghav_Shukla_Resume.73980ea041490d0de70c.pdf",
     "static/media/toymarche1.jpg": "/static/media/toymarche1.f768a7e2d798d7b3f5d9.jpg",
     "static/media/jcrew.jpg": "/static/media/jcrew.ff3f816aeb5463d342d5.jpg",
     "static/media/green house.jpg": "/static/media/green house.3c065cd539cfb61a543f.jpg",
@@ -14,10 +14,10 @@
     "static/media/mongodb3.webp": "/static/media/mongodb3.2a107cf4a13bf2ef9649.webp",
     "index.html": "/index.html",
     "main.a9c86599.css.map": "/static/css/main.a9c86599.css.map",
-    "main.c0f5c4ca.js.map": "/static/js/main.c0f5c4ca.js.map"
+    "main.940e47b8.js.map": "/static/js/main.940e47b8.js.map"
   },
   "entrypoints": [
     "static/css/main.a9c86599.css",
-    "static/js/main.c0f5c4ca.js"
+    "static/js/main.940e47b8.js"
   ]
 }
