@@ -12,8 +12,8 @@ const ProjectCardData = [
     text: "Bettermart is an ecommerce platform from where a user can by daily life used things and accessories like dresses shoes and many more things",
     techstack:
       "React, Redux, Chakra/UI, Bootstrap, MongoDB, Express, Railway, Rozerpay",
-    view: "https://bettermart-eight.vercel.app/",
-    source: "https://github.com/spsanchore13/spicy-muscle-8472",
+    view: "https://bettermartecommerce.vercel.app/",
+    source: "https://github.com/Raghav435/Bettermart-E-commerce",
   },
   {
     imgsrc: Ecommerce,
